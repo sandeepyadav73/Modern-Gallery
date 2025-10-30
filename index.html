@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Photography Gallery (Full Website)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">PhotoFolio</a>
+            </div>
+            
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Galleries</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <h1>Modern Gallery</h1>
+        <p>Explore moments captured in time</p>
+    </section>
+
+    <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="landscape">Landscape</button>
+        <button class="filter-btn" data-filter="portrait">Portrait</button>
+        <button class="filter-btn" data-filter="architecture">Architecture</button>
+    </div>
+
+    <main>
+        <div class="gallery-container">
+            
+            <div class="image-card" data-category="landscape">
+                <span class="tag">Landscape</span>
+                <img src="assets/4.jpg" alt="Mountain Landscape">
+                <div class="overlay">
+                    <div class="overlay-text">Photo by Alex Carter</div>
+                </div>
+            </div>
+
+            <div class="image-card" data-category="architecture">
+                <span class="tag">Architecture</span>
+                <img src="assets/2.jpg" alt="City Architecture">
+                <div class="overlay">
+                    <div class="overlay-text">Captured by Sandeep Yadav 📷</div>
+                </div>
+            </div>
+
+            <div class="image-card" data-category="portrait">
+                <span class="tag">Portrait</span>
+                <img src="assets/5.jpg" alt="Man Portrait">
+                <div class="overlay">
+                    <div class="overlay-text">Nature’s Frame – John Doe</div>
+                </div>
+            </div>
+
+            <div class="image-card" data-category="landscape">
+                <span class="tag">Landscape</span>
+                <img src="assets/1.jpg" alt="Lake">
+                <div class="overlay">
+                    <div class="overlay-text">Lake View by Maria</div>
+                </div>
+            </div>
+
+            <div class="image-card" data-category="architecture">
+                <span class="tag">Architecture</span>
+                <img src="assets/3.jpg" alt="Building">
+                <div class="overlay">
+                    <div class="overlay-text">Urban Lines by Kenji</div>
+                </div>
+            </div>
+
+            <div class="image-card" data-category="portrait">
+                <span class="tag">Portrait</span>
+                <img src="assets/6.jpg" alt="Portrait of a man">
+                <div class="overlay">
+                    <div class="overlay-text">Street Portrait – Anna</div>
+                </div>
+            </div>
+            
+
+        </div> </main>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <div class="modal-content">
+            <img src="" alt="Fullscreen Preview" id="modalImage">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 PhotoFolio. All Rights Reserved. Designed by You.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
