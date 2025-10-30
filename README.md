@@ -2,7 +2,8 @@
 
 Yeh ek fully responsive, professional photography gallery website hai jo modern web technologies ka istemal karke banayi gayi hai. Ismein images ko filter karne, hover par details dekhne, aur fullscreen preview karne ki functionality hai.
 
----
+<img width="956" height="429" alt="image" src="https://github.com/user-attachments/assets/bb861644-bd30-4678-8fe6-3a0a46c72018" />
+
 
 ## ✨ Features (Gallery Ke Features)
 
@@ -40,7 +41,3 @@ Bas! Gallery aapke browser mein live ho jayegi.
 ---
 
 ## 📂 File Structure (Project Ka Structure)
-
-Project mein 3 mukhya files hain:
-
-/Modern-Photography-Gallery │ ├── 📄 index.html │ (Poora HTML structure, header, gallery cards, modal, footer) │ ├── 🎨 style.css │ (Sari styling, responsiveness, hover effects, animations) │ └── 🚀 script.js (Sabhi JavaScript logic - Filter, Modal, aur Mobile Menu)
